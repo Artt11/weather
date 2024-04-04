@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(100, 200, 223);
+}
+.weather {
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 900px;
+  height: auto;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.title {
+  font-size: 50px;
+  font-style: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  margin: 0 5px;
+  margin-top: 15px;
+}
+.getWeather {
+  background-color: rgb(10, 74, 131);
+  padding: 7px;
+  border-radius: 13px;
+  color: white;
+  border: 1.5px solid black;
+}
+
+.container {
+  background-color: white;
+  margin: 10px auto;
+  width: 600px;
+  height: auto;
+  border: 1.5px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.placeName {
+  font-size: 24px;
+  display: flex;
+  justify-content: left;
+}
+.time {
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  color: gray;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.temp-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  margin-top: 10px;
+}
+
+.temp-main {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-description {
+  position: relative;
+  top: -19px;
+}
+.description {
+  display: flex;
+  justify-content: left;
+}
+
+.footer {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  font-weight: 20px;
+  font-size: medium;
+}
